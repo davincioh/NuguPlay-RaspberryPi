@@ -23,6 +23,8 @@ NUGU로 라즈베리파이 컨트롤하기
 --
 - NUGU developers에서는 사용자 발화가 처리되는 과정에 반드시 필요한 요소 기술들을 제공하고,서비스를 개발할 수 있는 통합 개발 환경인 Play Builder를 제공합니다. 본 Task에선 NUGU developers에서 제공하는 기능 중 Backend proxy를 응용하여 NUGU스피커로 라즈베리파이의 GPIO를 제어하는 과정을 소개하고자 합니다.
   
+  
+![컨트롤 소개](./images/pi01.png)
 
 
 
@@ -45,6 +47,9 @@ NUGU로 라즈베리파이 컨트롤하기
 - NUGU Play Kit은 NUGU의 서비스 단위인 Play를 제작하는 도구입니다.개발자가 아니어도 대화 기반 서비스를 개발할 수 있는 통합 환경을 제공하여,자신이 직접만든 서비스를 NUGU 사용자에게 제공할 수 있도록 도와줍니다.
 
 
+![플레이 키트](./images/pi02.png)
+
+
 - 라즈베리파이 제어에 필요한 NUGU Play Kit 기능은 다음과 같이 구성됩니다.
    - Play를 제작하는 Play Builder
    - 응답 생성에 필요한 정보를 외부 서버로부터 가져오기 위한 Backend proxy API
@@ -61,3 +66,6 @@ NUGU로 라즈베리파이 컨트롤하기
 Backend Proxy 연동
 --
 - 외부 서버를 호출하여 대화 관리자에게 정보를 전달하는 서버를 Backend proxy라고 합니다. Backend proxy는 외부 서버로부터 가져온 정보를 수정하거나 복잡한 로직을 통해 조건을 판단하는 기능도 수행할 수 있는데, 개발자가 직접 개발하여 NUGU 플랫폼과 연동할 수 있도록 준비해야 합니다.
+
+
+![Proxy 연동](./images/pi03.png)
