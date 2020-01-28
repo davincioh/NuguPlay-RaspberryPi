@@ -6,6 +6,8 @@ NUGU는 SK 텔레콤의 인공지능 기술로서,
 사용자의 자연어(음성 언어 또는 문자 언어) 요청을 이해하여 의도를 파악한 후 
 특정 명령을 수행하거나 자연어로 응답하는 대화 기반 인공지능 플랫폼입니다.
 
+[![NUGUPLAY](http://img.youtube.com/vi/3_8h87CGf0E/0.jpg)](https://youtu.be/3_8h87CGf0E)
+
 
 
 주요기능
